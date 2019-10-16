@@ -1,6 +1,6 @@
 class Game
   def initialize
-    @file = File.new("downloads/RubyExercises/boris_johnson.dat")
+    @file = File.new("boris_johnson.dat")
     @question = []
     @question_match = false
     @questions_count = 20
